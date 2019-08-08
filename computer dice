@@ -1,0 +1,6 @@
+import random 
+a=[]
+b=int(input("enter number of dice:"))
+for d in range(b):
+    a.append(random.randint(1,6))
+print('dice numbers:',a)
